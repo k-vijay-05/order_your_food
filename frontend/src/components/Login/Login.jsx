@@ -21,7 +21,7 @@ const Login = ( {setshowLogin}) => {
             <input type="checkbox" required/>
             <p>By continuing i agree to the terms of use and privacy policy</p>
         </div>
-        {currstate==="Login"?  <p>Create a new account? <span onClick={()=>setcurrstate("Sign Up")}>Click here</span></p>:
+        {currstate==="Login"?  <p>Create a new account? <span onClick={()=>setcurrstate("sign up")}>Click here</span></p>:
         <p>Already have an account? <span onClick={()=>setcurrstate("Login")}>Login here</span></p>}
        
 
